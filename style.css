@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');   
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+
+.title {
+text-align: center;
+font-size: 50px;
+font-weight: 900;
+text-transform: uppercase;
+color: rgb(255, 0, 0);
+}
+
+.item {
+width: 300px;
+height: 300px;
+margin: 10px;
+background: cadetblue;
+}
+
+
+.wrapper {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.smallgoat {
+    background: url(smallgoat.jpg) center center/cover no-repeat ;
+}
+
+.goatstogether {
+   background: url(goatstogether.JPG) center center/cover no-repeat ; 
+} 
+
+.goatsouttogether {
+   background: url(goatsouttogether.JPG) center center/cover no-repeat ; 
+}
+
+.goatsout {
+    background: url(goatsout.JPG) center center/cover no-repeat ;
+}
+
+.item:hover {
+    transform: rotate(3deg) scale(1.07) ;
+    box-shadow: 0 0 0px 1px rgba(0,0,0,0,4) ;
+}
+
+.item {
+height: calc((35vw - 40px ) / 16 * 9 );
+width: calc(50% - 40px) ;
+margin: 20px;
+box-shadow:0 0 0px 10px 1px rgba(0,0,0,0,2) ;
+}
+
+#text1 {
+font-weight: 500;
+font-size: 30px;
+color: rgb(67, 3, 241);
+text-align: center;
+}
+
+#text2 {
+   text-align: center;
+   font-size: 20px;
+   font-weight: 500;
+   color: blue;
+}
+
+#text3 {
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+}
+#text4 {
+text-align: center;
+font-size: 20px;
+font-weight: 500;
+}
